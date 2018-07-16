@@ -6,7 +6,7 @@ just include the script in your html and listen for the 'swipe' event
 ```
 <script src="swiper.js"></script>
 <script>
-    window.addEventListent('swipe', (swipeEvent)=>{
+    window.addEventListener('swipe', (swipeEvent)=>{
         console.log(swipeEvent.detail)
     })
 </script>
